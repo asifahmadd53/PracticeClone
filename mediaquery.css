@@ -1,0 +1,269 @@
+@media screen and (max-width:991px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    .midofpage .leftside img{
+        width: 110%;
+    }
+    .rightside{
+        margin-left: 20px;
+    }
+    .rightside a{
+        position: relative;
+        bottom: 20px;
+        right: 70px;
+    }
+    nav ul li{
+        display: none;
+    }
+    .midnav ul{
+        position: fixed;
+        z-index: 2;
+        background-color: #FF6E00;
+        top: 0;
+        margin: 0;
+        right: 200px;
+        width: 250px;
+        height: 100vh;
+        padding-top:50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    /* nav ul {
+        position: fixed;
+        background:#243b55;
+        top: 0;
+        margin: 0;
+        right: 200px;
+        width: 250px;
+        width: 0;
+        height: 100vh;
+        padding-top:50px;
+        z-index: 2;
+        transition: right 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height:50px ;
+    } */
+    /* ul {
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+        display: none;
+    } */
+    /* nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        margin: 0;
+        right: 0px;
+        width: 250px;
+        height: 100vh;
+        padding-top:50px;
+        z-index: 2;
+        transition: right 0.5s;
+    } */
+    nav ul li:nth-child(4){
+        margin: 0;
+    }
+    nav button{
+        display: none;
+    }
+    .menu i{
+        display: block;
+        margin-top: 3.5vh;
+        margin-right: 5vw;
+        font-size: 2rem;
+    }
+    .close i{
+        display: block;
+        position: relative;
+        bottom: 250px;
+        right: 80px;
+        font-size: 2rem;
+    }
+    .logo h1{
+        position: relative;
+        right: 2vw;
+        font-size: 2.5rem;
+    }
+    .midofpage .leftside img {
+        height: 100%;
+        margin-left: 20px;
+    }
+    .midofpage .rightside {
+        flex-basis: 45%;
+        margin-top: 105px;
+        margin-left: 100px;
+    }
+    .link1 a{
+        width: 30%;
+        /* margin-right: 15vw; */
+    }
+}
+@media screen and (max-width:768px) {
+    .midofpage .leftside img{
+        width: 80%;
+        margin-left: 25%;
+    }
+    .midofpage{
+        flex-direction: column;
+    }
+    .midofpage .rightside {
+        margin: 0;
+        margin-left: 5%;
+    }
+    .midofpage .rightside p{
+        width: 80%;
+        
+    }
+    .midofpage .rightside a{
+        width: 40%;
+        font-size: 1.4rem;
+        /* text-align: center; */
+    }
+    .container2 .p1{
+        font-size: 1.3rem;
+        text-align:center;
+    }
+    .link1 a{
+        width: 30%;
+    }
+    .leftside2 h1{
+        margin-top: 30px;
+    }
+    .leftside2 p{
+        font-size: 1rem;
+    }
+    .leftside2 .link2{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:600px) {
+    .close i{
+        display: block;
+    }
+    .menu i{
+        display: block;
+        font-size: 30px;
+        position: relative;
+        left: 35px;
+    }
+    nav ul li a {
+        margin-left: 15px;
+        gap: 5vw;
+    }
+    nav ul{
+        background: #243b55;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        margin: 0;
+        width: 200px;
+        height: 65vh;
+        padding-top:50px;
+        z-index: 2;
+        transition:  0.5s;
+        flex-direction: column;
+        border-bottom-left-radius: 50px;
+        
+    }
+    nav ul li {
+        display: flex;
+        margin-left: 9vw;
+        margin-bottom: 10vw;
+        gap: 25vw;
+
+    }
+    nav ul li:nth-child(1){
+        margin-top: 10vw;
+    }
+    nav ul li:nth-child(4){
+        margin-left: 18px;
+        width: 200px;
+    }
+    nav ul .close i{
+        position: absolute;
+        top: 25px;
+        left: 20px;
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .logo h1{
+        position: relative;
+        right: 16vw;
+        font-size: 2rem;
+    }
+    .menu i {
+        position: relative;
+        right: -12vw;
+        bottom: 1.5vh;
+    }
+    .midofpage .leftside img {
+        width: 75vw;
+        position: relative;
+        right: 10vw;
+    }
+    .midofpage .rightside{
+        font-size: .7rem;
+    }
+    .rightside a{
+        position: relative;
+        left:  5vw;
+        top: 1.5vw;
+        
+    }
+    .midofpage .rightside .link0 a{
+        font-size: 1rem;
+        width: 140px;
+        height: 45px;
+    }
+    .fa-solid, .fas{
+        width: 6vw;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .row2 .leftside2{
+        width: 100%;
+    }
+    .t1{
+        width: 88%;
+    }
+    .leftside2 p{
+        font-size: .9rem;
+        position: relative;
+        left: 4vw;
+        width: 85vw;
+        text-align: justify;
+    }
+    .t1 h1{
+        position: relative;
+        top: 50px;
+    }
+    .row3{
+        flex-direction: column;
+    }
+    .contact-left , .contact-right{
+       flex-basis: 100%;
+    }
+    .contact-right button{
+        margin-bottom: 25px;
+    }
+    .contact-right form{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .copyright{
+        
+        font-size: 14px;
+    }
+}
